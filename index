@@ -1,0 +1,278 @@
+<html lang="pl">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   receiptz.ninja
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;800&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+      font-family: 'Roboto', sans-serif;
+    }
+  </style>
+ </head>
+ <body class="bg-[#F4ECF7] text-gray-800">
+  <!-- Navigation -->
+  <nav class="bg-[#4A235A] text-white p-4">
+   <div class="container mx-auto flex justify-between items-center">
+    <div class="flex items-center space-x-2">
+     <img alt="Logo of Receiptz Ninja" class="h-8 w-8 rounded-full" height="50" src="./ninja_rec.jpg" width="50"/>
+     <a class="text-2xl font-bold" href="#">
+      Receiptz Ninja
+     </a>
+    </div>
+    <ul class="hidden md:flex space-x-4">
+     <li>
+      <a class="hover:text-[#A569BD] font-[700]" href="#about">
+       O nas
+      </a>
+     </li>
+     <li>
+      <a class="hover:text-[#A569BD] font-[700]" href="generator.html">
+       Generator
+      </a>
+     </li>
+     <li>
+      <a class="hover:text-[#A569BD] font-[700]" href="#pricing">
+       Cennik
+      </a>
+     </li>
+    </ul>
+    <div class="md:hidden">
+     <button class="text-white focus:outline-none" id="menu-button">
+      <i class="fas fa-bars">
+      </i>
+     </button>
+    </div>
+   </div>
+   <div class="hidden md:hidden" id="mobile-menu">
+    <ul class="flex flex-col space-y-2 mt-4">
+     <li>
+      <a class="hover:text-[#A569BD] font-bold" href="#about">
+       O nas
+      </a>
+     </li>
+     <li>
+      <a class="hover:text-[#A569BD] font-bold" href="generator.html">
+       Generator
+      </a>
+     </li>
+     <li>
+      <a class="hover:text-[#A569BD] font-bold" href="#pricing">
+       Cennik
+      </a>
+     </li>
+    </ul>
+   </div>
+  </nav>
+  <!-- Landing Page -->
+  <section class="bg-[#6C3483] text-white py-20">
+   <div class="container mx-auto text-center px-4">
+    <h1 class="text-5xl font-bold mb-4">
+     Generowanie paragonów do repów.
+    </h1>
+    <p class="text-xl mb-8">
+     Wszystko w celach edukacyjnych!
+    </p>
+    <a class="bg-white text-[#6C3483] px-6 py-3 rounded-full font-semibold hover:bg-[#E8DAEF]" href="generator.html">
+     Zacznij teraz
+    </a>
+   </div>
+  </section>
+  <!-- About Us -->
+  <section class="py-20" id="about">
+   <div class="container mx-auto flex flex-wrap items-center px-4">
+    <div class="w-full md:w-1/3 px-4 mb-8 md:mb-0">
+     <img alt="A detailed image of a receipt with various brand logos such as NIKE, TNF, LV, Moncler, CK, ADIDAS, and iSPOT on a purple background" class="rounded-lg" height="300" src="https://storage.googleapis.com/a1aa/image/thMlSkcXkEKTK90swUPKNVBMLBzLcQ5pWu7jXMIAXbgLfLEKA.jpg" width="400"/>
+    </div>
+    <div class="w-full md:w-2/3 px-4">
+     <h2 class="text-5xl font-bold mb-6">
+      Generator
+     </h2>
+     <p class="text-2xl mb-8">
+      <b>
+       Wszystkie znane marki (NIKE, TNF, LV, Moncler, CK, ADIDAS, iSPOT) są w generatorze. Jak chcesz generować paragony do repów napisz do nas na Discodzie:
+       <b>
+        Kastik0060
+       </b>
+       lub na innej platformie, aby aktywować generator.
+      </b>
+     </p>
+     <ul class="flex space-x-4 mb-8">
+      <li>
+       <a class="flex items-center space-x-2 bg-[#7289DA] text-white px-4 py-2 rounded-full hover:bg-[#5A67D8]" href="https://discord.com" target="_blank">
+        <i class="fab fa-discord fa-2x">
+        </i>
+        <span>
+         Discord
+        </span>
+       </a>
+      </li>
+      <li>
+       <a class="flex items-center space-x-2 bg-[#69C9D0] text-white px-4 py-2 rounded-full hover:bg-[#5A67D8]" href="https://www.tiktok.com" target="_blank">
+        <i class="fab fa-tiktok fa-2x">
+        </i>
+        <span>
+         TikTok
+        </span>
+       </a>
+      </li>
+      <li>
+       <a class="flex items-center space-x-2 bg-[#0088CC] text-white px-4 py-2 rounded-full hover:bg-[#5A67D8]" href="https://telegram.org" target="_blank">
+        <i class="fab fa-telegram fa-2x">
+        </i>
+        <span>
+         Telegram
+        </span>
+       </a>
+      </li>
+     </ul>
+     <div class="border-2 border-[#8E44AD] p-4 rounded-lg flex items-center justify-center space-x-4">
+      <a class="bg-[#8E44AD] text-white px-6 py-3 rounded-full font-semibold hover:bg-[#A569BD]" download="" href="photo.png">
+       Download
+      </a>
+      <p class="text-[#8E44AD] font-bold">
+       Free StockX receipt sample
+      </p>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- Pricing -->
+  <section class="py-20" id="pricing">
+   <div class="container mx-auto text-center px-4">
+    <h2 class="text-3xl font-bold mb-6">
+     Cennik
+    </h2>
+    <p class="text-lg mb-8">
+     Wybierz plan, który najlepiej pasuje do twoich potrzeb
+    </p>
+    <div class="flex flex-wrap justify-center space-y-8 md:space-y-0 md:space-x-8">
+     <div class="w-full md:w-1/3 lg:w-1/4 bg-white p-8 rounded-lg shadow-lg flex flex-col justify-between">
+      <div>
+       <h3 class="text-xl font-semibold mb-4">
+        Podstawowy
+       </h3>
+       <p class="text-2xl font-bold mb-4">
+        7.99 PLN/paragon
+       </p>
+       <ul class="text-left mb-6">
+        <li class="mb-2">
+         <i class="fas fa-check text-[#4A235A]">
+         </i>
+         1 paragon
+        </li>
+        <li class="mb-2">
+         <i class="fas fa-check text-[#4A235A]">
+         </i>
+         Do wyboru 5 najpopularniejszych marek: Snipes, NIKE, TNF, Calvin Klain, Adidas
+        </li>
+        <li class="mb-2">
+            <i class="fas fa-check text-[#4A235A]">
+            </i>
+            +3 zł za dodatkowe zdjęcie wydruku
+           </li>
+       </ul>
+      </div>
+      <a class="bg-[#4A235A] text-white px-6 py-3 rounded-full font-semibold hover:bg-[#6C3483] text-center" href="#about">
+       Wybierz plan podstawowy
+      </a>
+     </div>
+     <div class="w-full md:w-1/3 lg:w-1/4 bg-white p-8 rounded-lg shadow-lg flex flex-col justify-between">
+      <div>
+       <h3 class="text-xl font-semibold mb-4">
+        Standardowy
+       </h3>
+       <p class="text-2xl font-bold mb-4">
+        14.99 PLN/2 paragony
+       </p>
+       <ul class="text-left mb-6">
+        <li class="mb-2">
+         <i class="fas fa-check text-[#4A235A]">
+         </i>
+         2 Paragony
+        </li>
+        <li class="mb-2">
+            <i class="fas fa-check text-[#4A235A]">
+            </i>
+            Dostęp do wszystkiego w planie podstawowym
+           </li>
+        <li class="mb-2">
+         <i class="fas fa-check text-[#4A235A]">
+         </i>
+         Dodatkowe marki: LV, StockX, Moncler, Ralph Laure, Apple, Ispot itd.
+        </li>
+        <li class="mb-2">
+         <i class="fas fa-check text-[#4A235A]">
+         </i>
+         Opcja wydrukowania paragonu i otrzymania zdjęcia za darmo
+        </li>
+       </ul>
+      </div>
+      <a class="bg-[#4A235A] text-white px-6 py-3 rounded-full font-semibold hover:bg-[#6C3483] text-center" href="#about">
+       Wybierz plan standardowy
+      </a>
+     </div>
+     <div class="w-full md:w-1/3 lg:w-1/4 bg-white p-8 rounded-lg shadow-lg flex flex-col justify-between">
+      <div>
+       <h3 class="text-xl font-semibold mb-4">
+        Ninja
+       </h3>
+       <p class="text-2xl font-bold mb-4">
+        69.99 PLN/  <br>
+        ∞ paragonów
+       </p>
+       <ul class="text-left mb-6">
+        <li class="mb-2">
+         <i class="fas fa-check text-[#4A235A]">
+         </i>
+         Wszystko z poprzednich planów oraz dodatkowe marki.
+        </li>
+        <li class="mb-2">
+         <i class="fas fa-check text-[#4A235A]">
+         </i>
+         Zaawansowany generator paragonów: edytor do tworzenia nowych paragonów na twoje potrzebt.
+        </li>
+        <li class="mb-2">
+         <i class="fas fa-check text-[#4A235A]">
+         </i>
+            5 Darmowych zdjęć wydruku.
+        </li>
+        <li class="mb-2">
+         <i class="fas fa-check text-[#4A235A]">
+         </i>
+         Dostęp do API
+        </li>
+       </ul>
+      </div>
+      <a class="bg-[#4A235A] text-white px-6 py-3 rounded-full font-semibold hover:bg-[#6C3483] text-center" href="#about">
+       Wybierz plan zaawansowany
+      </a>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- Footer -->
+  <footer class="bg-[#4A235A] text-white py-6">
+   <div class="container mx-auto text-center">
+    <p>
+     © 2025 Ninja Receiptz. All rights reserved.
+    </p>
+   </div>
+  </footer>
+  <script>
+   document.getElementById('menu-button').addEventListener('click', function() {
+      var menu = document.getElementById('mobile-menu');
+      if (menu.classList.contains('hidden')) {
+        menu.classList.remove('hidden');
+      } else {
+        menu.classList.add('hidden');
+      }
+    });
+  </script>
+ </body>
+</html>
